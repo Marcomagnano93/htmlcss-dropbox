@@ -108,5 +108,14 @@ h1 {
 .hero__info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.hero__info > * {
+    margin-bottom: 32px;
+}
+
+.hero__arrow {
+    margin-top: auto;
+    font-size: 32px;
 }
