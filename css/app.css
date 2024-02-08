@@ -43,3 +43,12 @@ ul, ol, menu {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
+
+/* HEADER */
+
+header > ul {
+    display: flex;
+}
