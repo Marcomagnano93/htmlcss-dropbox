@@ -49,6 +49,14 @@ ul, ol, menu {
 
 /* HEADER */
 
-header > ul {
+.navbar > ul {
     display: flex;
+    gap: 16px;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    padding: 22px 19px;
 }
