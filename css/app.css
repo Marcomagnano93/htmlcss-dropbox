@@ -79,7 +79,7 @@ body {
 
 .navbar > ul {
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .navbar {
@@ -106,7 +106,6 @@ h1 {
 .hero__info {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
 }
 
 .hero__info > * {
@@ -115,6 +114,6 @@ h1 {
 
 .hero__arrow {
     margin-top: auto;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 600;
 }
