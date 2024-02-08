@@ -48,12 +48,10 @@ button {
 
 .col-8 {
     width: calc(8 * 100% / 12);
-    background-color: chartreuse;
 }
 
 .col-4 {
     width: calc(4 * 100% / 12);
-    background-color: aqua;
 }
 
 /* STYLE */
@@ -118,4 +116,5 @@ h1 {
 .hero__arrow {
     margin-top: auto;
     font-size: 32px;
+    font-weight: 600;
 }
