@@ -190,3 +190,19 @@ h1 {
     padding: 20px;
     background-color: gray;
 }
+
+.debug .card__header {
+    padding: 20px;
+    background-color: yellow;
+}
+
+.debug .card__body {
+    padding: 20px;
+    background-color: green;
+}
+
+.debug .card__section {
+    padding: 20px;
+    background-color: pink;
+    border: 2px solid goldenrod;
+}
