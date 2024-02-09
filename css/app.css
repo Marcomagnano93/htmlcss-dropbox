@@ -61,6 +61,14 @@ button {
     width: calc(4 * 100% / 12);
 }
 
+.col-3 {
+    width: calc(3 * 100% / 12);
+}
+
+.col-9 {
+    width: calc(9 * 100% / 12);
+}
+
 .col100 {
     width: 100%;
 }
@@ -171,6 +179,9 @@ h1 {
     padding-left: 4px;
 }
 
+.shop__cards .container-sm:last-of-type {
+    margin-top: 42px;
+}
 /* CARDS */
 
 .card__header {
@@ -183,7 +194,7 @@ h1 {
     
 }
 
-.card__header h3 {
+.shop__cards h3 {
     font-weight: 100;
 }
 
@@ -196,6 +207,15 @@ h1 {
     padding: 20px;
 }
 
+.card__lrg {
+    display: flex;
+    flex-direction: row;
+}
+
+.card__lrg h5 {
+    margin-bottom: 40px;
+}
+
 .card__section {
     display: flex;
     flex-direction: column;
@@ -203,7 +223,7 @@ h1 {
     margin-bottom: 32px;
 }
 
-.card__section h4 {
+.shop__cards h4 {
     font-size: 28px;
 }
 
@@ -212,17 +232,19 @@ h1 {
     color: gray;
 }
 
-.card .col-4 {
-    padding: 0 12px;
+.card {
+    padding: 20px;
+    
 }
 
 .card ul {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin-bottom: auto;
 }
 
-.card p, h5{
+.shop__cards p, h5{
     font-size: 20px;
 }
 
@@ -237,16 +259,72 @@ h1 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
 /* .debug .col-4 {
     background-color: aqua;
     border: 2px solid black;
     /* padding: 20px; */
 
-.debug .col100 {
+/* .debug .col100 {
     background-color: blue;
     border: 2px dotted red;
     padding: 20px;
-}
+} */
 
 /* .debug .card {
     padding: 20px;
