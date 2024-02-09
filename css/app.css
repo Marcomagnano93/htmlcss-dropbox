@@ -216,6 +216,10 @@ h1 {
     min-height: 1000px;
 }
 
+.card__lrg.card__body {
+    min-height: fit-content;
+}
+
 .card__lrg {
     display: flex;
     flex-direction: row;
