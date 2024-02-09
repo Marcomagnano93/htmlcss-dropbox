@@ -161,7 +161,18 @@ h1 {
     padding-left: 4px;
 }
 
+/* CARDS */
 
+.card__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/* .card__header h3 {
+    padding: 0 8px;
+} */
 
 
 
@@ -192,7 +203,7 @@ h1 {
 }
 
 .debug .card__header {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: yellow;
 }
 
