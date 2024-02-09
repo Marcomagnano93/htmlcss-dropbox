@@ -289,7 +289,18 @@ h1 {
     padding: 0 40px 40px 0;
 }
 
+/* SECTION QUESTION */
 
+.question {
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+
+   
 
 
 
