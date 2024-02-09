@@ -76,6 +76,16 @@ body {
     padding: 40px 0 30px;
 }
 
+.blue-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.blue-check {
+    color: #0061FF;
+
+}
+
 /* BUTTON */
 
 .bluebtn {
@@ -169,28 +179,68 @@ h1 {
     align-items: center;
     gap: 8px;
     border: 1px solid gray;
+    line-height: 40px;
+    
+}
+
+.card__header h3 {
+    font-weight: 100;
 }
 
 .card__body {
     display: flex;
     flex-direction: column;
-}
-
-
-
-
-
-
-
-
-
-
-
-.debug .col-4 {
-    background-color: aqua;
-    border: 2px solid black;
+    justify-content: space-between;
+    gap: 40px;
+    border: 1px solid gray;
     padding: 20px;
 }
+
+.card__section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.card__section h4 {
+    font-size: 28px;
+}
+
+.card__section em {
+    font-size: 16px;
+    color: gray;
+}
+
+.card .col-4 {
+    padding: 0 12px;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card p, h5{
+    font-size: 20px;
+}
+
+.section__line{
+    font-size: 28px;
+    color: gray;
+}
+
+
+
+
+
+
+
+/* .debug .col-4 {
+    background-color: aqua;
+    border: 2px solid black;
+    /* padding: 20px; */
 
 .debug .col100 {
     background-color: blue;
@@ -198,23 +248,23 @@ h1 {
     padding: 20px;
 }
 
-.debug .card {
+/* .debug .card {
     padding: 20px;
     background-color: rgb(186, 15, 15);
-}
+} */
 
-.debug .card__header {
+/* .debug .card__header {
     /* padding: 20px; */
-    background-color: yellow;
-}
+    /* background-color: yellow;
+} */ 
 
-.debug .card__body {
+/* .debug .card__body {
     padding: 20px;
     background-color: green;
-}
+} */
 
-.debug .card__section {
+/* .debug .card__section {
     padding: 20px;
     background-color: pink;
     border: 2px solid goldenrod;
-}
+} */
