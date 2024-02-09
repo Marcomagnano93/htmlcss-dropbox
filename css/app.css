@@ -160,3 +160,33 @@ h1 {
     width: 20px;
     padding-left: 4px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.debug .col-4 {
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.debug .col100 {
+    background-color: blue;
+    border: 2px dotted red;
+    padding: 20px;
+}
+
+.debug .card {
+    padding: 20px;
+    background-color: gray;
+}
