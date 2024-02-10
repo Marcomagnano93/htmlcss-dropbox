@@ -297,14 +297,52 @@ h1 {
     font-weight: 600;
 }
 
+/* SECTION BADGE */
 
+.banner-lrg {
+    background-color: gray;
+    height: 100%;
+}
 
+.banner {
+    width: 320px;
+    height: 320px;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.banner-col {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#designit {
+    background-color: #D1E9CD;
+    padding: 20px;
+}
    
+#designit__green {
+    background-color: #A2D39B;
+    padding: 50px;
+}
 
+#asu {
+    background-color: #61082B;
+    padding: 20px;
+}
 
+#uf {
+    background-color: #0093CE;
+    padding: 20px;
+}
 
-
+#topps {
+    background-color: #FF1C1C;
+    padding: 20px;
+}
 
 
 
