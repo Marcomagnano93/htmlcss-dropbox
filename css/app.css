@@ -88,6 +88,12 @@ body {
     padding: 40px 0 30px;
 }
 
+.red-header {
+    font-size: 40px;
+    font-weight: 600;
+    color: #61082B;
+}
+
 .blue-link {
     color: blue;
     text-decoration: underline;
@@ -215,7 +221,7 @@ h1 {
     gap: 40px;
     border: 1px solid gray;
     padding: 28px;
-    min-height: 100%;
+    height: 100%;
 }
 
 .card__lrg.card__body {
@@ -248,7 +254,7 @@ h1 {
 }
 
 .card {
-    padding: 0 20px 60px 0;
+    padding: 0 20px 20px 0;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -297,7 +303,7 @@ h1 {
     font-weight: 600;
 }
 
-/* SECTION BADGE */
+/* SECTION COMPANY */
 
 .banner-lrg {
     background-color: gray;
@@ -305,12 +311,21 @@ h1 {
 }
 
 .banner {
-    width: 320px;
-    height: 320px;
+    width: 240px;
+    height: 240px;
     min-width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 50%;
+}
+
+.banner-100 {
+    padding: 200px;
+    background-color: #B4D0E7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .banner-col {
@@ -318,6 +333,22 @@ h1 {
     flex-wrap: wrap;
     
 }
+
+.company .container-lg {
+    padding: 0;
+}
+
+.company img {
+    display: block;
+}
+
+
+
+
+
+
+
+
 
 #designit {
     background-color: #D1E9CD;
@@ -344,10 +375,28 @@ h1 {
     padding: 20px;
 }
 
+#world_bicycle_relief {
+    background-color: #D5001F;
+    padding: 20px;
+}
 
 
+#hearst_corp {
+    background-color: #B4D0E7;
+    padding: 20px;
+}
 
 
+#lonely_planet {
+    background-color: #0D2481;
+    padding: 20px;
+}
+
+
+#clear_channel {
+    background-color: #FFD830;
+    padding: 20px;
+}
 
 
 
