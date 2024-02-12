@@ -333,6 +333,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .banner-row {
@@ -349,13 +350,14 @@ h1 {
     display: block;
     object-fit: cover;
     object-position: center;
-    padding: 15%;
+    filter: invert(100%);
+ 
     
     
 }
 
 .banner:hover{
-    border: solid 10px #A2D39B;
+    border: solid 10px #D1E9CD;
 }
 
 .banner-lrg hr {
@@ -365,56 +367,10 @@ h1 {
     display: block;
 }
 
+
 .banner-lrg img{
     width: 50%;
 }
-
-
-#designit {
-    background-color: #D1E9CD;
-    padding: 20px;
-}
-   
-#asu {
-    background-color: #61082B;
-    padding: 20px;
-}
-
-#uf {
-    background-color: #0093CE;
-    padding: 20px;
-}
-
-#topps {
-    background-color: #FF1C1C;
-    padding: 20px;
-}
-
-#world_bicycle_relief {
-    background-color: #D5001F;
-    padding: 20px;
-}
-
-
-#hearst_corp {
-    background-color: #B4D0E7;
-    padding: 20px;
-}
-
-
-#lonely_planet {
-    background-color: #0D2481;
-    padding: 20px;
-}
-
-
-#clear_channel {
-    background-color: #FFD830;
-    padding: 20px;
-}
-
-
-
 
 
 /* SECTION DROPBOX BUSINESS SUB */
