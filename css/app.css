@@ -112,9 +112,22 @@ body {
 
 }
 
+
+.card__section.line::after {
+
+    content: '';
+	width: 50px;
+	height: 1px;
+	background-color: #bcbcbc;
+	display: block;
+    margin-top: 20px;
+
+    }
+
 /* BUTTON */
 
 .bluebtn {
+    
     background-color: #0061FF;
     color: white;
     padding: 0 20px;
