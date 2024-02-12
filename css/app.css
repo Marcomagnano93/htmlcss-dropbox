@@ -437,11 +437,12 @@ h1 {
 /* SECTION QUESTION */
 
 .question {
-    justify-content: space-between;
+    flex-direction: column;
     
     font-size: 32px;
     font-weight: 600;
 }
+
 
 
 
