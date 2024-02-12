@@ -127,7 +127,7 @@ body {
 /* BUTTON */
 
 .bluebtn {
-    
+
     background-color: #0061FF;
     color: white;
     padding: 0 20px;
@@ -318,8 +318,14 @@ h1 {
 /* SECTION COMPANY */
 
 .banner-lrg {
-    background-color: gray;
+    background-color: #F5F5F5;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 20px;
+    font-size: 12px;
+
 }
 
 .banner {
@@ -348,22 +354,34 @@ h1 {
     padding: 0;
 }
 
-.company img {
+.banner img {
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    padding: 15%;
+    
+    
+}
+
+.banner:hover{
+    border: solid 10px #A2D39B;
+}
+
+.banner-lrg hr {
+    height: 1px;
+    width: 50px;
+    border-bottom: none;
     display: block;
 }
 
-
-
-
-
-
-
+.banner-lrg img{
+    width: 50%;
+}
 
 
 #designit {
     background-color: #D1E9CD;
     padding: 20px;
-    border: solid 20px #A2D39B;
 }
    
 #asu {
