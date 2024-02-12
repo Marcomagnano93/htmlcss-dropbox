@@ -437,14 +437,17 @@ h1 {
 /* SECTION QUESTION */
 
 .question {
-    flex-direction: column;
     
-    font-size: 32px;
-    font-weight: 600;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-
-
+.question .col100 {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* FOOTER */
